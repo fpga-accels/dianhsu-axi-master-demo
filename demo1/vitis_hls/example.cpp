@@ -22,8 +22,8 @@
 #include <string.h>
 
 void example(volatile int *a){
-  
-#pragma HLS INTERFACE m_axi port=a depth=50
+#pragma HLS INTERFACE s_axilite port=return
+#pragma HLS INTERFACE m_axi port=a depth=50 offset=slave
   
   int i;
   int buff[50];

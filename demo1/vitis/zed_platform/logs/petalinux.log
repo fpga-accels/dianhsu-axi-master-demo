@@ -1,0 +1,8 @@
+TRACE::2021-01-29.17:55:39::SCWLinux::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To C:/Users/dianhsu/Desktop/axi-demo/demo1/vitis/zed_platform/export/zed_platform/sw/zed_platform/qemu/
+TRACE::2021-01-29.17:55:39::SCWLinux::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To C:/Users/dianhsu/Desktop/axi-demo/demo1/vitis/zed_platform/export/zed_platform/sw/zed_platform/linux/qemu/
+TRACE::2021-01-29.17:55:39::SCWLinux:: Copying the user libraries. 
+TRACE::2021-01-29.17:55:39::SCWLinux::Skipping the Petalinux build as image is already given.
+TRACE::2021-01-29.17:57:48::SCWLinux::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To C:/Users/dianhsu/Desktop/axi-demo/demo1/vitis/zed_platform/export/zed_platform/sw/zed_platform/qemu/
+TRACE::2021-01-29.17:57:48::SCWLinux::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To C:/Users/dianhsu/Desktop/axi-demo/demo1/vitis/zed_platform/export/zed_platform/sw/zed_platform/linux/qemu/
+TRACE::2021-01-29.17:57:48::SCWLinux:: Copying the user libraries. 
+TRACE::2021-01-29.17:57:48::SCWLinux::Skipping the Petalinux build as image is already given.

@@ -1,0 +1,330 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Jan 28 18:19:48 2021
+| Host         : Windows10-508 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'demo1_db_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of demo1_db_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2101281749) to (Rev. 2101281818)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'demo1_db_example_0_0'.
+
+
+-Upgrade has removed interface 'ap_ctrl'
+
+-Upgrade has added interface 'interrupt' (xilinx.com:signal:interrupt:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'demo1_db_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'ap_done'
+
+-Upgrade has removed port 'ap_idle'
+
+-Upgrade has removed port 'ap_ready'
+
+-Upgrade has removed port 'ap_start'
+
+-Upgrade has added port 'interrupt'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Jan 28 17:52:18 2021
+| Host         : Windows10-508 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'demo1_db_example_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of demo1_db_example_0_0 (xilinx.com:hls:example:1.0) from (Rev. 2101281729) to (Rev. 2101281749)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'demo1_db_example_0_0'.
+
+
+-Upgrade has removed interface 'm_axi_a'
+
+-Upgrade has added interface 'm_axi_gmem' (xilinx.com:interface:aximm:1.0)
+
+-Upgrade has added interface 's_axi_control' (xilinx.com:interface:aximm:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'demo1_db_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'm_axi_a_ARADDR'
+
+-Upgrade has removed port 'm_axi_a_ARBURST'
+
+-Upgrade has removed port 'm_axi_a_ARCACHE'
+
+-Upgrade has removed port 'm_axi_a_ARLEN'
+
+-Upgrade has removed port 'm_axi_a_ARLOCK'
+
+-Upgrade has removed port 'm_axi_a_ARPROT'
+
+-Upgrade has removed port 'm_axi_a_ARQOS'
+
+-Upgrade has removed port 'm_axi_a_ARREADY'
+
+-Upgrade has removed port 'm_axi_a_ARREGION'
+
+-Upgrade has removed port 'm_axi_a_ARSIZE'
+
+-Upgrade has removed port 'm_axi_a_ARVALID'
+
+-Upgrade has removed port 'm_axi_a_AWADDR'
+
+-Upgrade has removed port 'm_axi_a_AWBURST'
+
+-Upgrade has removed port 'm_axi_a_AWCACHE'
+
+-Upgrade has removed port 'm_axi_a_AWLEN'
+
+-Upgrade has removed port 'm_axi_a_AWLOCK'
+
+-Upgrade has removed port 'm_axi_a_AWPROT'
+
+-Upgrade has removed port 'm_axi_a_AWQOS'
+
+-Upgrade has removed port 'm_axi_a_AWREADY'
+
+-Upgrade has removed port 'm_axi_a_AWREGION'
+
+-Upgrade has removed port 'm_axi_a_AWSIZE'
+
+-Upgrade has removed port 'm_axi_a_AWVALID'
+
+-Upgrade has removed port 'm_axi_a_BREADY'
+
+-Upgrade has removed port 'm_axi_a_BRESP'
+
+-Upgrade has removed port 'm_axi_a_BVALID'
+
+-Upgrade has removed port 'm_axi_a_RDATA'
+
+-Upgrade has removed port 'm_axi_a_RLAST'
+
+-Upgrade has removed port 'm_axi_a_RREADY'
+
+-Upgrade has removed port 'm_axi_a_RRESP'
+
+-Upgrade has removed port 'm_axi_a_RVALID'
+
+-Upgrade has removed port 'm_axi_a_WDATA'
+
+-Upgrade has removed port 'm_axi_a_WLAST'
+
+-Upgrade has removed port 'm_axi_a_WREADY'
+
+-Upgrade has removed port 'm_axi_a_WSTRB'
+
+-Upgrade has removed port 'm_axi_a_WVALID'
+
+-Upgrade has added port 'm_axi_gmem_ARADDR'
+
+-Upgrade has added port 'm_axi_gmem_ARBURST'
+
+-Upgrade has added port 'm_axi_gmem_ARCACHE'
+
+-Upgrade has added port 'm_axi_gmem_ARLEN'
+
+-Upgrade has added port 'm_axi_gmem_ARLOCK'
+
+-Upgrade has added port 'm_axi_gmem_ARPROT'
+
+-Upgrade has added port 'm_axi_gmem_ARQOS'
+
+-Upgrade has added port 'm_axi_gmem_ARREADY'
+
+-Upgrade has added port 'm_axi_gmem_ARREGION'
+
+-Upgrade has added port 'm_axi_gmem_ARSIZE'
+
+-Upgrade has added port 'm_axi_gmem_ARVALID'
+
+-Upgrade has added port 'm_axi_gmem_AWADDR'
+
+-Upgrade has added port 'm_axi_gmem_AWBURST'
+
+-Upgrade has added port 'm_axi_gmem_AWCACHE'
+
+-Upgrade has added port 'm_axi_gmem_AWLEN'
+
+-Upgrade has added port 'm_axi_gmem_AWLOCK'
+
+-Upgrade has added port 'm_axi_gmem_AWPROT'
+
+-Upgrade has added port 'm_axi_gmem_AWQOS'
+
+-Upgrade has added port 'm_axi_gmem_AWREADY'
+
+-Upgrade has added port 'm_axi_gmem_AWREGION'
+
+-Upgrade has added port 'm_axi_gmem_AWSIZE'
+
+-Upgrade has added port 'm_axi_gmem_AWVALID'
+
+-Upgrade has added port 'm_axi_gmem_BREADY'
+
+-Upgrade has added port 'm_axi_gmem_BRESP'
+
+-Upgrade has added port 'm_axi_gmem_BVALID'
+
+-Upgrade has added port 'm_axi_gmem_RDATA'
+
+-Upgrade has added port 'm_axi_gmem_RLAST'
+
+-Upgrade has added port 'm_axi_gmem_RREADY'
+
+-Upgrade has added port 'm_axi_gmem_RRESP'
+
+-Upgrade has added port 'm_axi_gmem_RVALID'
+
+-Upgrade has added port 'm_axi_gmem_WDATA'
+
+-Upgrade has added port 'm_axi_gmem_WLAST'
+
+-Upgrade has added port 'm_axi_gmem_WREADY'
+
+-Upgrade has added port 'm_axi_gmem_WSTRB'
+
+-Upgrade has added port 'm_axi_gmem_WVALID'
+
+-Upgrade has added port 's_axi_control_ARADDR'
+
+-Upgrade has added port 's_axi_control_ARREADY'
+
+-Upgrade has added port 's_axi_control_ARVALID'
+
+-Upgrade has added port 's_axi_control_AWADDR'
+
+-Upgrade has added port 's_axi_control_AWREADY'
+
+-Upgrade has added port 's_axi_control_AWVALID'
+
+-Upgrade has added port 's_axi_control_BREADY'
+
+-Upgrade has added port 's_axi_control_BRESP'
+
+-Upgrade has added port 's_axi_control_BVALID'
+
+-Upgrade has added port 's_axi_control_RDATA'
+
+-Upgrade has added port 's_axi_control_RREADY'
+
+-Upgrade has added port 's_axi_control_RRESP'
+
+-Upgrade has added port 's_axi_control_RVALID'
+
+-Upgrade has added port 's_axi_control_WDATA'
+
+-Upgrade has added port 's_axi_control_WREADY'
+
+-Upgrade has added port 's_axi_control_WSTRB'
+
+-Upgrade has added port 's_axi_control_WVALID'
+
+
+4. Addressing Information
+-------------------------
+
+Detected addressing differences while upgrading 'demo1_db_example_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed address space 'Data_m_axi_a'
+
+-Upgrade has added address space 'Data_m_axi_gmem'
+
+
+5. Customization warnings
+-------------------------
+
+Parameter 'C_M_AXI_A_ENABLE_ID_PORTS' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to 'false'
+
+Parameter 'C_M_AXI_A_ID_WIDTH' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_A_DATA_WIDTH' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '32'
+
+Parameter 'C_M_AXI_A_ENABLE_USER_PORTS' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to 'false'
+
+Parameter 'C_M_AXI_A_AWUSER_WIDTH' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_A_WUSER_WIDTH' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_A_BUSER_WIDTH' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_A_ARUSER_WIDTH' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_A_RUSER_WIDTH' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_A_USER_VALUE' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '0x00000000'
+
+Parameter 'C_M_AXI_A_PROT_VALUE' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '"000"'
+
+Parameter 'C_M_AXI_A_CACHE_VALUE' is no longer present on the upgraded IP 'demo1_db_example_0_0', and cannot be set to '"0011"'
+
+
+6. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:hls:example:1.0 -user_name demo1_db_example_0_0
+set_property -dict "\
+  CONFIG.Component_Name {demo1_db_example_0_0} \
+  CONFIG.II {x} \
+  CONFIG.ap_clk.ASSOCIATED_BUSIF {m_axi_a} \
+  CONFIG.ap_clk.ASSOCIATED_RESET {ap_rst_n} \
+  CONFIG.ap_clk.CLK_DOMAIN {} \
+  CONFIG.ap_clk.FREQ_HZ {100000000} \
+  CONFIG.ap_clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.ap_clk.INSERT_VIP {0} \
+  CONFIG.ap_clk.PHASE {0.000} \
+  CONFIG.ap_rst_n.INSERT_VIP {0} \
+  CONFIG.ap_rst_n.POLARITY {ACTIVE_LOW} \
+  CONFIG.clk_period {10} \
+  CONFIG.combinational {0} \
+  CONFIG.latency {169} \
+  CONFIG.machine {64} " [get_ips demo1_db_example_0_0]
+
+

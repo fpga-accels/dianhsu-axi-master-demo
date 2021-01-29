@@ -1,0 +1,15 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../demo1.gen/sources_1/bd/demo1_db/ipshared/ec67/hdl" --include "../../../../demo1.gen/sources_1/bd/demo1_db/ipshared/34f8/hdl" \
+"../../../bd/demo1_db/ip/demo1_db_processing_system7_0_0/sim/demo1_db_processing_system7_0_0.v" \
+"../../../../demo1.gen/sources_1/bd/demo1_db/ipshared/206f/hdl/verilog/example_buff.v" \
+"../../../../demo1.gen/sources_1/bd/demo1_db/ipshared/206f/hdl/verilog/example_control_s_axi.v" \
+"../../../../demo1.gen/sources_1/bd/demo1_db/ipshared/206f/hdl/verilog/example_gmem_m_axi.v" \
+"../../../../demo1.gen/sources_1/bd/demo1_db/ipshared/206f/hdl/verilog/example.v" \
+"../../../bd/demo1_db/ip/demo1_db_example_0_0/sim/demo1_db_example_0_0.v" \
+"../../../bd/demo1_db/ip/demo1_db_auto_pc_0/sim/demo1_db_auto_pc_0.v" \
+"../../../bd/demo1_db/ip/demo1_db_auto_us_0/sim/demo1_db_auto_us_0.v" \
+"../../../bd/demo1_db/ip/demo1_db_auto_pc_1/sim/demo1_db_auto_pc_1.v" \
+"../../../bd/demo1_db/sim/demo1_db.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

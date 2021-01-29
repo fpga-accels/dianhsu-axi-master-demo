@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/demo1_db/ip/demo1_db_rst_ps7_0_100M_0/sim/demo1_db_rst_ps7_0_100M_0.vhd" \
+
+nosort
