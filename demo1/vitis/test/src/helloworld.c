@@ -54,43 +54,31 @@
 #include "xscugic.h"     // Processor interrupt controller device driver
 #include "xexample.h"   // Device driver for HLS HW block
 #include "xil_cache.h"
+
 int main() {
 	init_platform();
-	Xil_DCacheDisable();
-	print("Program to test communication with Example block in PL\n\r");
-
+	Xil_DCacheDisable();	// 禁用Cache
+	printf("Program to test communication with Example block in PL\n\r");
 	for (int i = 0; i < 50; i++)
-		Xil_Out32(XPAR_PS7_DDR_0_S_AXI_BASEADDR + i * 4, i);
-	//Setup the matrix mult
-
+		Xil_Out32(XPAR_PS7_DDR_0_S_AXI_BASEADDR + i * 4, i);	// 设置初始数据
 	XExample example;
 	XExample_Config *ConfigPtr;
-
 	ConfigPtr = XExample_LookupConfig(XPAR_EXAMPLE_0_DEVICE_ID);
-
 	if (!ConfigPtr) {
 		printf("ERROR: Lookup of accelerator configuration failed.\n\r");
 		return XST_FAILURE;
 	}
-
-	printf("Initialize the Device\n");
+	printf("Initialize the Device\n\r");
 	long status = XExample_CfgInitialize(&example, ConfigPtr);
 	if (status != XST_SUCCESS) {
 		printf("ERROR: Could not initialize accelerator.\n\r");
 		return (-1);
 	}
-
-	//set the input parameters of the HLS block
-	XExample_Set_a(&example, XPAR_PS7_DDR_0_S_AXI_BASEADDR);
-
-	XExample_Start(&example);
-	while (XExample_IsDone(&example) == 0)
-		;
-
-	//call the software version of the function
-	for (int i = 0; i < 50; ++i) {
-		printf("%4ld ", Xil_In32(XPAR_PS7_DDR_0_S_AXI_BASEADDR + i * 4));
-	}
+	XExample_Set_a(&example, XPAR_PS7_DDR_0_S_AXI_BASEADDR);	// 将数据在内存中的偏移量通过axilite传递给PS端
+	XExample_Start(&example);	// 开始运行PL端
+	while (XExample_IsDone(&example) == 0);	// 等待PL端结束
+	for (int i = 0; i < 50; ++i)
+		printf("%4ld ", Xil_In32(XPAR_PS7_DDR_0_S_AXI_BASEADDR + i * 4));	// 从内存中读取数据
 	printf("\n\r");
 	cleanup_platform();
 	return 0;

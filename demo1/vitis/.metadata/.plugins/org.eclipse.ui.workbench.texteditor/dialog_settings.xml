@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="INT"/>
+		<item key="selection" value="INTR"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="INTR"/>
 			<item value="INT"/>
+			<item value="IRQ"/>
 			<item value="EXAMPLE"/>
 			<item value="hls_macc"/>
 			<item value="XHls_macc"/>

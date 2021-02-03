@@ -1,0 +1,21 @@
+19:33:15 **** Build of configuration Debug for project test_linux ****
+make all 
+'Building file: ../src/main.cpp'
+'Invoking: ARM v7 Linux g++ compiler'
+arm-linux-gnueabihf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+'Finished building: ../src/main.cpp'
+' '
+'Building target: test_linux.elf'
+'Invoking: ARM v7 Linux g++ linker'
+arm-linux-gnueabihf-g++  -o "test_linux.elf"  ./src/main.o   
+'Finished building target: test_linux.elf'
+' '
+'Invoking: ARM v7 Linux Print Size'
+arm-linux-gnueabihf-size test_linux.elf  |tee "test_linux.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1943	    368	      8	   2319	    90f	test_linux.elf
+'Finished building: test_linux.elf.size'
+' '
+
+19:33:17 Build Finished (took 1s.740ms)
+

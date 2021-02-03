@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:/Users/dianhsu/Desktop/axi-demo/demo1/vitis/zed_platform/export/zed_platform/sw/zed_platform/boot/fsbl.elf
+	C:/Users/dianhsu/Desktop/axi-demo/demo1/vitis/test/_ide/bitstream/demo1_db_wrapper.bit
+	C:/Users/dianhsu/Desktop/axi-demo/demo1/vitis/test/Debug/test.elf
+}

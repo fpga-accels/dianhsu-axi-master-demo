@@ -33,3 +33,36 @@ domain active {zynq_fsbl}
 bsp reload
 domain active {standalone_domain}
 bsp reload
+platform active {zed_platform}
+domain remove linux
+platform generate -domains 
+platform write
+domain create -name {linux_domain} -os {linux} -proc {ps7_cortexa9} -arch {32-bit} -display-name {linux_application_domain} -desc {} -runtime {cpp}
+platform write
+domain config -image {}
+platform write
+domain -report -json
+domain config -runtime {cpp}
+platform write
+domain config -bootmode {sd}
+platform write
+platform generate -domains 
+domain config -boot {C:\Users\dianhsu\Desktop\linux}
+platform write
+domain config -image {C:\Users\dianhsu\Desktop\linux}
+platform write
+platform generate -domains 
+domain config -bif {C:\Users\dianhsu\Desktop\axi-demo\demo1\vitis\test_system\_ide\bootimage\test_system.bif}
+platform write
+platform generate -domains 
+platform active {zed_platform}
+domain active {zynq_fsbl}
+bsp reload
+domain active {linux_domain}
+library -lib-path {C:\Users\dianhsu\Desktop\axi-demo\demo1\vitis\test_system\_ide\bootimage\writebif.log} -inc-path {}
+platform write
+library -lib-path {} -inc-path {}
+platform write
+platform generate -domains 
+platform generate
+platform generate
